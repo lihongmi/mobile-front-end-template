@@ -22,11 +22,11 @@
 
 ## Tip
 * 布局可参考 `src/views/demo/layout.html`
-* 使用rem做单位时，按照在640px的设计稿中的量取的值除以100。如，设计搞中100px 为 1rem, 页面宽度的100%为6.4rem
+* 使用rem做单位时，按照在640px的设计稿中的量取的值除以100。如，设计稿中100px 为 1rem, 页面宽度的100%为6.4rem
 
 
 ## 构建
-1.安装依赖
+1. 安装依赖
 	1. 安装 [Nodejs](http://nodejs.org/)
 	1. 安装 [Gulp](http://gulpjs.com/)
 		* `npm install -g gulp`
@@ -40,7 +40,7 @@
 	* [Flex 布局语法教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html) 阮一峰
 	* [Flex 布局教程：实例篇](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html) 阮一峰
 	* [一个完整的Flexbox指南](http://www.w3cplus.com/css3/a-guide-to-flexbox-new.html)
-	* [compass Flex](http://compass-style.org/reference/compass/css3/flexbox/)
+	* [Compass Flex](http://compass-style.org/reference/compass/css3/flexbox/)
 * [Gulp 入门指南](https://github.com/nimojs/gulp-book)
 * [Sass官网](http://sass-lang.com/) 世界上最成熟，稳定强大的专业的CSS拓展语言
 * [Compass](http://compass-style.org/) 基于Sass的框架
