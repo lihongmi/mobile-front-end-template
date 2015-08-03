@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import "compass/utilities/";
+@import "compass/reset";
+@import "compass/css3";
+@import "_variables";
+html {
+    font-size: 62.5%; // 10px
+}
+
+body {
+    font-size: 12px;
+    // font-family: $font-family-hei;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+@mixin clearfix() {
+    @include pie-clearfix();
+}
+
+.clearfix{
+    @include pie-clearfix();
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+}
